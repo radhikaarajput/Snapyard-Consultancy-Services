@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+
+
+</style>
+</head>
+<body>
+    {% include 'pages/layouts/navbar.html' %}
+
+
+<div class="container">
+    <!-- ============= line1============== -->
+    <hr>
+
+    <!-- ============= image bg============== -->
+   <div class="container" style="margin-top:50px;">
+
+	   <div class="row">
+
+		   <div class="col-6 col-md-4">
+			   <h3>CONTACT US</h3><hr>
+			   <br><br>
+			   <p>The order process starts with the form, where you need to specify the type of assignment, academic level, and deadline. Please fill out form as more detailed and accurate as you can. If we need more details about the work you need, we will contact you shortly</p></div>
+
+	  <div class="col-12 col-md-8">
+		  <center> <img src="https://www.pngkit.com/png/full/948-9481957_services-banner-contact-us.png" alt="Snow" style="width:70%; height:300px;">
+		</center>
+	  </div>
+
+
+
+	</div>
+	</div>
+
+    <!-- ============= line2============== -->
+    <hr>
+</div>
+<!-- ============= center image done ============== -->
+<hr>
+
+
+
+<div class="container" style="margin-top:70px;">
+
+<!--Section: Contact v.2-->
+<section class="mb-4" style=" background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX4+f6D1ppdAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=)">
+    <!--Section heading-->
+    <h1 class="h1-responsive font-weight-bold text-center my-4">Contact us</h1>
+    <!--Section description-->
+    <h5 class="text-center w-responsive mx-auto mb-5">Do you have any questions? <br><hr>Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</h5>
+
+    <div class="row" style="margin-left:50px;">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker mt-4 fa-2x"></i>
+                    <p>San Francisco, CA 94126, USA</p>
+                </li>
+
+                <li><i class="fa fa-whatsapp mt-4 fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@mdbootstrap.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+
+
+</div>
+
+
+
+
+
+<div class="container">
+
+	<div class="row" style="margin-top:60px;">
+		<div class="col">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252472.49614972837!2d115.07297164050586!3d-8.607254370851338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409caed1f9bf%3A0xf49aa826ade530f3!2sUmah%20Vegan%20Food%20%26%20Coffee!5e0!3m2!1sen!2sid!4v1616365065780!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+		</div>
+
+		<div class="col">
+
+            <p style="margin-top:160px;">café ... café, also spelled cafe, small eating and drinking establishment, historically a coffeehouse, usually featuring a limited menu; originally these establishments served only coffee. The English term café, borrowed from the French, derives ultimately from the Turkish kahve, meaning coffee.</p>
+
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+	<!-- Section: Social media -->
+	<section
+	  class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+	>
+	  <!-- Left -->
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <!-- Left -->
+
+	  <!-- Right -->
+	  <div>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-facebook-f"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-twitter"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-google"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-instagram"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-linkedin"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-github"></i>
+		</a>
+	  </div>
+	  <!-- Right -->
+	</section>
+	<!-- Section: Social media -->
+
+	<!-- Section: Links  -->
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<!-- Grid row -->
+		<div class="row mt-3">
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<!-- Content -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i>Company name
+			</h6>
+			<p>
+				If your summer bike tour is going to take you through different climates
+				 then the UltraLite is a good choice. With a 59″ shoulder girth
+				 this efficient bag is good to 20°. The full down collar helps to seal
+			</p>
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Products
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Delivery Bags</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Sports Kits</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Utility Bags</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">TravelLite</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Useful links
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Return Policy</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Terms and conditions</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Orders</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Help</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Contact
+			</h6>
+			<p><i class="fas fa-home me-3"></i> Nsd smdklf dsfmk, NY 10012, US</p>
+			<p>
+			  <i class="fas fa-envelope me-3"></i>
+			  info@example.com
+			</p>
+			<p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+			<p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+		  </div>
+		  <!-- Grid column -->
+		</div>
+		<!-- Grid row -->
+	  </div>
+	</section>
+	<!-- Section: Links  -->
+
+	<!-- Copyright -->
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+	  © 2021 Copyright:
+	  <a class="text-reset fw-bold" href="#">Ultralite.in</a>
+	</div>
+	<!-- Copyright -->
+  </footer>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

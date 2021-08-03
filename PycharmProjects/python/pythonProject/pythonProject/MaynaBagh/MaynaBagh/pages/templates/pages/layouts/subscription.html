@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+  #newsletter {
+    padding: 80px 80px;
+	margin-left:80px;
+	margin-right:80px;
+	margin-bottom:80px;
+
+    text-align: center;
+    color: #fff;
+}
+
+.n1
+{
+     background-image: url("{% static '\fb15.jpg'%}");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.n2
+{
+background-image: url("{% static '\fb17.jpg'%}");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.n3
+{
+background-image: url("{% static '\fb18.jpg'%}");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+#newsletter h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+#newsletter p {
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px;
+    margin: 25px 0px 40px;
+}
+#newsletter form {
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+#newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #FF9800;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+#newsletter form input[type="submit"]:hover {
+    opacity: 0.9;
+}
+#newsletter .social-links {
+    margin-top: 30px;
+}
+#newsletter .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ffffff;
+    color: blue;
+    line-height: 1;
+    padding: 10px 0;
+    margin-right: 4px;
+    border-radius: 10px 10px 10px 0px;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    transition: 0.4s;
+}
+#newsletter .social-links a:hover {
+    background: #FF9800;
+    color: #fff;
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+    {% include 'pages/layouts/navbar.html' %}
+
+
+
+
+
+
+
+	<!--  Newsletter Section -->
+    <section id="newsletter" class="n1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+
+                    <h3>Get in Touch</h3>
+                    <h1>FLOWER SUBSCRIPTION</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+                </div>
+            </div>
+          <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form action="" method="">
+                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+          </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section><!-- End newsletter Section--><br><br>
+<hr>
+
+	<!--  Newsletter Section -->
+    <section id="newsletter" class="n2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h3>Get in Touch</h3>
+					 <h1>PLANT SUBSCRIPTION</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+                </div>
+            </div>
+          <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form action="" method="">
+                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+          </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section><!-- End newsletter Section--><br><br>
+<hr>
+
+	<!--  Newsletter Section -->
+    <section id="newsletter" class="n3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h3>Get in Touch</h3>
+					<h1>Apo SUBSCRIPTION</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+                </div>
+            </div>
+          <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form action="" method="">
+                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+          </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section><!-- End newsletter Section--><br><br>
+
+
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+	<!-- Section: Social media -->
+	<section
+	  class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+	>
+	  <!-- Left -->
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <!-- Left -->
+
+	  <!-- Right -->
+	  <div>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-facebook-f"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-twitter"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-google"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-instagram"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-linkedin"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-github"></i>
+		</a>
+	  </div>
+	  <!-- Right -->
+	</section>
+	<!-- Section: Social media -->
+
+	<!-- Section: Links  -->
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<!-- Grid row -->
+		<div class="row mt-3">
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<!-- Content -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i>Company name
+			</h6>
+			<p>
+				If your summer bike tour is going to take you through different climates
+				 then the UltraLite is a good choice. With a 59″ shoulder girth
+				 this efficient bag is good to 20°. The full down collar helps to seal
+			</p>
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Products
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Delivery Bags</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Sports Kits</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Utility Bags</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">TravelLite</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Useful links
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Return Policy</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Terms and conditions</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Orders</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Help</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Contact
+			</h6>
+			<p><i class="fas fa-home me-3"></i> Nsd smdklf dsfmk, NY 10012, US</p>
+			<p>
+			  <i class="fas fa-envelope me-3"></i>
+			  info@example.com
+			</p>
+			<p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+			<p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+		  </div>
+		  <!-- Grid column -->
+		</div>
+		<!-- Grid row -->
+	  </div>
+	</section>
+	<!-- Section: Links  -->
+
+	<!-- Copyright -->
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+	  © 2021 Copyright:
+	  <a class="text-reset fw-bold" href="#">Ultralite.in</a>
+	</div>
+	<!-- Copyright -->
+  </footer>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!---  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div id="navbarNav">
+      <ul class="navbar-nav">
+  <li class="nav-item {{ home_page }}">
+      <a class="nav-link" href="{% url 'index' %}">Home</a>
+   </li>
+   <li class="nav-item {{ about_page }}">
+      <a class="nav-link" href="{% url 'about' %}">About</a>
+    </li>
+   <li class="nav-item {{ contact_page }}">
+       <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+    </li>
+  </ul>
+    </div>
+  </nav>
+!--->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<header class="section-header py-4">
+<div class="container">
+	<h2><center>ULTRALITE</center></h2>
+</div>
+</header> <!-- section-header.// -->
+
+
+
+<div class="container">
+
+<!-- ============= COMPONENT ============== -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+ <div class="container-fluid">
+ 	 <a class="navbar-brand " href="#">ULTRALITE</a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" >
+	<ul class="navbar-nav">
+		<li class="nav-item active {{ home_page }}" > <a class="nav-link" href="{% url 'index' %}">HOME</a> </li>
+
+        <li class="nav-item dropdown">
+			<a class="nav-link dropdown" href="" >  PRODUCTS </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> UTILITY BAGS</a></li>
+			  <li><a class="dropdown-item" href="#"> DELIVERY BAGS </a></li>
+			  <li><a class="dropdown-item" href="#"> ESSENTIAL BAGS </a></li>
+              <li><a class="dropdown-item" href="#"> SPORTS KITS</a></li>
+			  <li><a class="dropdown-item" href="#"> COSMETIC POUCH </a></li>
+			  <li><a class="dropdown-item" href="#"> TOILETRY KIT </a></li>
+              <li><a class="dropdown-item" href="#"> TRAVEL LITE </a></li>
+			  <li><a class="dropdown-item" href="#"> BAGPACK </a></li>
+		    </ul>
+		</li>
+		<li class="nav-item {{ about_page }}"><a class="nav-link" href="{% url 'about' %}"> ABOUT US </a></li>
+
+	</ul>
+	<ul class="navbar-nav ms-auto">
+		<li class="nav-item"><a class="nav-link" href="#">CUSTOMER LOGIN</a></li>
+        <li class="nav-item {{ contact_page }}"><a class="nav-link"  href="{% url 'contact' %}"> CONTACT US </a></li>
+		<li class="nav-item"><a class="nav-link" href="#"> CART</a></li>
+
+	</ul>
+  </div> <!-- navbar-collapse.// -->
+ </div> <!-- container-fluid.// -->
+</nav>
+
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+<!-- ============= COMPONENT END// ============== -->
+</div><!-- container //  -->
+<!-- ============= nav menu done ============== -->
+
+
+<hr>

@@ -1,0 +1,24 @@
+{% load static %}
+ <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            {% for object in obj %}
+
+          <div class="carousel-item  {% if forloop.counter0 ==0%} active{% endif %}">
+            <img src="{{object.image.url}}" style="height: 600px;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animate__animated">{{object.title}}</h1>
+              <p class="animate__animated">{{object.sub_title}}</p>
+                <button class="animate__animated animate_zoomIn mt-3 p-4 px-5 btn font-weight-bold">Click</button>
+            </div>
+          </div>
+
+            {% endfor %}
+
+      </div>
+ </div>

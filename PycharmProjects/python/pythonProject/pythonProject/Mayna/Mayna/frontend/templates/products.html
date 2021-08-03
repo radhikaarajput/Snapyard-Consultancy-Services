@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!----
+{% for product in productss %}
+<div class="card" >
+  <img class="card-img-top" src="/media/{{ product.image }}" alt="Card image cap" style="width: 50px; height:50px;">
+  <div class="card-body">
+    <h5 class="card-title">{{ product.productname }}</h5>
+    <p class="card-text">{{ product.discription }}</p>
+    <p class="card-text">Price - {{ product.price }}</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+{% endfor %}
+!--->
+
+<div class="row col-md-12">
+
+    {% for product in productss %}
+        <div class="col-md-3">
+            <div class="card" >
+                    <img class="card-img-top" src="/media/{{ product.image }}" alt="Card image cap" style="width: 80px; height:80px;">
+
+              <div class="card-body">
+                <h5 class="card-title">{{ product.productname }}</h5>
+                <p class="card-text">{{ product.discription }}</p>
+                <p class="card-text">Price - {{ product.price }}</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+
+            </div>
+
+        </div>
+    {% endfor %}
+</div>
+
+
+
+
+</body>
+</html>
